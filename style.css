@@ -1,0 +1,52 @@
+.main-box{
+    width: 100%;
+    height: 620px;
+    /* background-color: lightblue; */
+    background: url(./images/hand-drawn-abstract-and-geometric-shape-background-free-vector.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h2{
+    margin: 3% 1% 1% 1%;
+    font-weight: bold;
+    color:#00a8e8 ;
+    /* border: solid black; */
+    padding: 1%;
+    
+}
+
+.shape-box{
+    /* background-color:; */
+    width: 60%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+    
+}
+
+.shape{
+    width: 50%;
+    height: 50%;
+    background-color: black;
+    border-radius:84% 16% 58% 42% / 63% 17% 83% 37%  ;
+    margin-bottom: 5%;
+}
+
+.shape-btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    flex-wrap: wrap;
+    margin: 2% 1%;
+}
